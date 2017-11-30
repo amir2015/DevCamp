@@ -17,7 +17,7 @@
         <% @blogs.each do |blog| %>
             <tr>
                 <td>
-                    <%= blog.title %>
+                    <%= blog.title.upcase %>
                 </td>
                 <td>
                     <%= blog.body %>
